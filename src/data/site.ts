@@ -14,6 +14,13 @@ import storefrontAsset from "@/assets/storefront.jpg.asset.json";
 import latteRedAsset from "@/assets/latte-red.jpg.asset.json";
 import cakeBerryAsset from "@/assets/cake-berry.jpg.asset.json";
 import cupGreenAsset from "@/assets/cup-green.png.asset.json";
+// Complementary editorial imagery (generated to match the brand palette —
+// not photographs of the actual Pantone Coffee locations).
+import genMatchaImg from "@/assets/gen-matcha.jpg";
+import genCraftImg from "@/assets/gen-craft.jpg";
+import genIceCreamImg from "@/assets/gen-icecream.jpg";
+import genWorkImg from "@/assets/gen-work.jpg";
+import genPastryImg from "@/assets/gen-pastry.jpg";
 
 const interiorRedImg = interiorRedAsset.url;
 const counterImg = counterAsset.url;
@@ -25,15 +32,16 @@ const cupGreenImg = cupGreenAsset.url;
 export const images = {
   hero: interiorRedImg,
   coffee: latteRedImg,
-  iceCream: cupGreenImg,
+  iceCream: genIceCreamImg,
   craftShop: cupGreenImg,
   pastry: cakeBerryImg,
   interior: counterImg,
-  matcha: latteRedImg,
-  packaging: cakeBerryImg,
+  matcha: genMatchaImg,
+  packaging: genCraftImg,
   osokorky: counterImg,
   arsenalna: storefrontImg,
 };
+
 
 
 export const brand = {
@@ -243,4 +251,8 @@ export const gallery: GalleryItem[] = [
   { src: interiorRedImg, alt: "Червоний диван і мурал PANTONE у залі кав’ярні", size: "large" },
   { src: cakeBerryImg, alt: "Торт зі свіжими ягодами", size: "square" },
   { src: storefrontImg, alt: "Засніжений вхід до кав’ярні Pantone Coffee", size: "wide" },
+  { src: genMatchaImg, alt: "Крижаний матча-лате у склянці — редакційний кадр", size: "square" },
+  { src: genPastryImg, alt: "Круасани й ягідний тарт на керамічній тарілці", size: "tall" },
+  { src: genIceCreamImg, alt: "Ріжки з морозивом у літньому світлі", size: "small" },
+  { src: genWorkImg, alt: "Робота з ноутбуком за столиком у кав’ярні", size: "wide" },
 ];

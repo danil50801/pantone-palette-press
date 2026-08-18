@@ -37,7 +37,7 @@ export function CraftShopSection() {
           <Reveal delay={160} className="media-zoom">
             <img
               src={images.packaging}
-              alt="Торт зі свіжими ягодами з вітрини Pantone Coffee"
+              alt="Кава в зернах у крафтовому пакунку та керамічні чашки"
               width={1200}
               height={1200}
               loading="lazy"
@@ -48,7 +48,7 @@ export function CraftShopSection() {
           <Reveal delay={220} className="media-zoom">
             <img
               src={images.matcha}
-              alt="Лате в червоній чашці з латте-артом"
+              alt="Крижаний матча-лате у склянці"
               width={1008}
               height={1312}
               loading="lazy"
