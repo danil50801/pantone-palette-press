@@ -16,6 +16,8 @@ import pastryImg from "@/assets/pantone-pastry.jpg";
 import interiorImg from "@/assets/pantone-interior.jpg";
 import matchaImg from "@/assets/pantone-matcha.jpg";
 import packagingImg from "@/assets/pantone-packaging.jpg";
+import osokorkyImg from "@/assets/pantone-osokorky.jpg";
+import arsenalnaImg from "@/assets/pantone-arsenalna.jpg";
 
 export const images = {
   hero: heroImg,
@@ -26,6 +28,8 @@ export const images = {
   interior: interiorImg,
   matcha: matchaImg,
   packaging: packagingImg,
+  osokorky: osokorkyImg,
+  arsenalna: arsenalnaImg,
 };
 
 export const brand = {
@@ -159,8 +163,8 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Княжий Затон 14-В, Київ"),
-    image: interiorImg,
-    imageAlt: "Столик з кавою та ноутбуком — простір Pantone Coffee",
+    image: osokorkyImg,
+    imageAlt: "Барна стійка та зал кав’ярні Pantone Coffee на Осокорках",
     theme: "theme-ink",
   },
   {
@@ -174,8 +178,8 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Микільський провулок 1/25, Київ"),
-    image: pastryImg,
-    imageAlt: "Круасани та тарт на керамічних тарілках",
+    image: arsenalnaImg,
+    imageAlt: "Вхід до кав’ярні Pantone Coffee біля Арсенальної",
     theme: "theme-cream",
   },
 ];
@@ -236,5 +240,6 @@ export const gallery: GalleryItem[] = [
   { src: craftShopImg, alt: "Чай, кераміка та сухоцвіти", size: "square" },
   { src: iceCreamImg, alt: "Два ріжки морозива на рожевому тлі", size: "wide" },
   { src: packagingImg, alt: "Крафтова упаковка кави та сухоцвіти", size: "square" },
-  { src: interiorImg, alt: "Кава та ноутбук на дерев’яному столі", size: "wide" },
+  { src: interiorImg, alt: "Зелений диван і столики в залі кав’ярні", size: "wide" },
+  { src: arsenalnaImg, alt: "Фасад кав’ярні Pantone Coffee у центрі Києва", size: "small" },
 ];
