@@ -72,8 +72,8 @@ export function Hero() {
           className="mt-9 flex flex-col gap-3 transition-all duration-1000 delay-500 sm:flex-row md:mt-12"
           style={{ opacity: ready ? 1 : 0, transform: ready ? "none" : "translateY(18px)" }}
         >
-          <a href="#menu" className="btn btn-solid text-cream">
-            <span>ПЕРЕГЛЯНУТИ МЕНЮ</span>
+          <a href="#menu" className="btn btn-solid">
+            ПЕРЕГЛЯНУТИ МЕНЮ
           </a>
           <a href="#locations" className="btn btn-ghost">
             ЗНАЙТИ НАС

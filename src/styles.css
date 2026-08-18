@@ -239,12 +239,19 @@
     opacity 0.35s ease;
 }
 @utility btn-solid {
-  background-color: currentColor;
-  & > span {
-    color: var(--btn-on, var(--cream));
-  }
+  background-color: var(--cream);
+  color: var(--ink);
+  border-color: var(--cream);
   &:hover {
-    opacity: 0.82;
+    opacity: 0.85;
+  }
+}
+@utility btn-dark {
+  background-color: var(--ink);
+  color: var(--cream);
+  border-color: var(--ink);
+  &:hover {
+    opacity: 0.85;
   }
 }
 @utility btn-ghost {
