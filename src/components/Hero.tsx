@@ -24,7 +24,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={images.hero}
-          alt="Айс-лате поруч із кольоровими картками у теплому денному світлі"
+          alt="Інтер’єр Pantone Coffee: червоний диван і мурал PANTONE"
           width={1600}
           height={1200}
           fetchPriority="high"
