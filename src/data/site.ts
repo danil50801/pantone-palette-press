@@ -8,29 +8,33 @@
  * staff are intentionally absent. Placeholders are marked explicitly.
  */
 
-import heroImg from "@/assets/pantone-hero.jpg";
-import coffeeImg from "@/assets/pantone-coffee.jpg";
-import iceCreamImg from "@/assets/pantone-ice-cream.jpg";
-import craftShopImg from "@/assets/pantone-craft-shop.jpg";
-import pastryImg from "@/assets/pantone-pastry.jpg";
-import interiorImg from "@/assets/pantone-interior.jpg";
-import matchaImg from "@/assets/pantone-matcha.jpg";
-import packagingImg from "@/assets/pantone-packaging.jpg";
-import osokorkyImg from "@/assets/pantone-osokorky.jpg";
-import arsenalnaImg from "@/assets/pantone-arsenalna.jpg";
+import interiorRedAsset from "@/assets/interior-red.jpg.asset.json";
+import counterAsset from "@/assets/counter.jpg.asset.json";
+import storefrontAsset from "@/assets/storefront.jpg.asset.json";
+import latteRedAsset from "@/assets/latte-red.jpg.asset.json";
+import cakeBerryAsset from "@/assets/cake-berry.jpg.asset.json";
+import cupGreenAsset from "@/assets/cup-green.png.asset.json";
+
+const interiorRedImg = interiorRedAsset.url;
+const counterImg = counterAsset.url;
+const storefrontImg = storefrontAsset.url;
+const latteRedImg = latteRedAsset.url;
+const cakeBerryImg = cakeBerryAsset.url;
+const cupGreenImg = cupGreenAsset.url;
 
 export const images = {
-  hero: heroImg,
-  coffee: coffeeImg,
-  iceCream: iceCreamImg,
-  craftShop: craftShopImg,
-  pastry: pastryImg,
-  interior: interiorImg,
-  matcha: matchaImg,
-  packaging: packagingImg,
-  osokorky: osokorkyImg,
-  arsenalna: arsenalnaImg,
+  hero: interiorRedImg,
+  coffee: latteRedImg,
+  iceCream: cupGreenImg,
+  craftShop: cupGreenImg,
+  pastry: cakeBerryImg,
+  interior: counterImg,
+  matcha: latteRedImg,
+  packaging: cakeBerryImg,
+  osokorky: counterImg,
+  arsenalna: storefrontImg,
 };
+
 
 export const brand = {
   name: "PANTONE°",
