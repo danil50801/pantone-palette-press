@@ -102,7 +102,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     copy: "Літо смакує краще холодним.",
     highlights: ["ICE CREAM", "COLD BREW", "MATCHA", "LEMONADES"],
     image: cupGreenImg,
-    imageAlt: "Морозиво в ріжках на рожевій стіні — сезонна кампанія Pantone Coffee",
+    imageAlt: "Зелений стакан Pantone Coffee на тлі рослин — сезонна кампанія",
     theme: "theme-blush",
   },
   autumn: {
@@ -112,7 +112,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     copy: "Тепліші смаки для коротших днів.",
     highlights: ["SEASONAL DRINKS", "DESSERTS"],
     image: cakeBerryImg,
-    imageAlt: "Осіння сезонна композиція",
+    imageAlt: "Торт із свіжими ягодами Pantone Coffee",
     theme: "theme-red",
   },
   winter: {
@@ -122,7 +122,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     copy: "Гаряче, повільно, затишно.",
     highlights: ["HOT DRINKS", "FESTIVE SPECIALS"],
     image: latteRedImg,
-    imageAlt: "Зимова сезонна композиція",
+    imageAlt: "Лате в червоній чашці на літній терасі",
     theme: "theme-ink",
   },
   spring: {
@@ -132,7 +132,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     copy: "Свіжий старт у чашці.",
     highlights: ["FRESH SEASONAL DRINKS"],
     image: latteRedImg,
-    imageAlt: "Весняна сезонна композиція",
+    imageAlt: "Лате в червоній чашці з латте-артом",
     theme: "theme-moss",
   },
 };
@@ -237,13 +237,10 @@ export type GalleryItem = {
 };
 
 export const gallery: GalleryItem[] = [
-  { src: latteRedImg, alt: "Еспресо наливається в керамічну чашку", size: "tall" },
-  { src: cakeBerryImg, alt: "Круасани та грушевий тарт", size: "wide" },
-  { src: latteRedImg, alt: "Крижаний матча-лате", size: "small" },
-  { src: interiorRedImg, alt: "Айс-лате поруч із кольоровими картками", size: "large" },
-  { src: cupGreenImg, alt: "Чай, кераміка та сухоцвіти", size: "square" },
-  { src: cupGreenImg, alt: "Два ріжки морозива на рожевому тлі", size: "wide" },
-  { src: cakeBerryImg, alt: "Крафтова упаковка кави та сухоцвіти", size: "square" },
-  { src: counterImg, alt: "Зелений диван і столики в залі кав’ярні", size: "wide" },
-  { src: storefrontImg, alt: "Фасад кав’ярні Pantone Coffee у центрі Києва", size: "small" },
+  { src: latteRedImg, alt: "Лате в червоній чашці з фінікою на терасі Pantone Coffee", size: "tall" },
+  { src: counterImg, alt: "Вітрина з десертами та зелені рослини в залі Pantone Coffee", size: "wide" },
+  { src: cupGreenImg, alt: "Зелений стакан Pantone Coffee серед рослин", size: "small" },
+  { src: interiorRedImg, alt: "Червоний диван і мурал PANTONE у залі кав’ярні", size: "large" },
+  { src: cakeBerryImg, alt: "Торт зі свіжими ягодами", size: "square" },
+  { src: storefrontImg, alt: "Засніжений вхід до кав’ярні Pantone Coffee", size: "wide" },
 ];
