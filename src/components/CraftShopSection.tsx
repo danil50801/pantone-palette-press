@@ -26,7 +26,7 @@ export function CraftShopSection() {
           <Reveal delay={100} className="media-zoom md:col-span-2">
             <img
               src={images.craftShop}
-              alt="Чай, кераміка та сухоцвіти на зеленій поверхні"
+              alt="Зелений стакан Pantone Coffee серед рослин"
               width={1408}
               height={1408}
               loading="lazy"
@@ -37,7 +37,7 @@ export function CraftShopSection() {
           <Reveal delay={160} className="media-zoom">
             <img
               src={images.packaging}
-              alt="Крафтова упаковка кави поруч із сухоцвітами"
+              alt="Торт зі свіжими ягодами з вітрини Pantone Coffee"
               width={1200}
               height={1200}
               loading="lazy"
@@ -48,7 +48,7 @@ export function CraftShopSection() {
           <Reveal delay={220} className="media-zoom">
             <img
               src={images.matcha}
-              alt="Крижаний матча-лате у високій склянці"
+              alt="Лате в червоній чашці з латте-артом"
               width={1008}
               height={1312}
               loading="lazy"

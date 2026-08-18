@@ -101,8 +101,8 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "SUMMER AT PANTONE",
     copy: "Літо смакує краще холодним.",
     highlights: ["ICE CREAM", "COLD BREW", "MATCHA", "LEMONADES"],
-    image: iceCreamImg,
-    imageAlt: "Морозиво в ріжках на рожевій стіні — сезонна кампанія Pantone Coffee",
+    image: cupGreenImg,
+    imageAlt: "Зелений стакан Pantone Coffee на тлі рослин — сезонна кампанія",
     theme: "theme-blush",
   },
   autumn: {
@@ -111,8 +111,8 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "AUTUMN AT PANTONE",
     copy: "Тепліші смаки для коротших днів.",
     highlights: ["SEASONAL DRINKS", "DESSERTS"],
-    image: packagingImg,
-    imageAlt: "Осіння сезонна композиція",
+    image: cakeBerryImg,
+    imageAlt: "Торт із свіжими ягодами Pantone Coffee",
     theme: "theme-red",
   },
   winter: {
@@ -121,8 +121,8 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "WINTER AT PANTONE",
     copy: "Гаряче, повільно, затишно.",
     highlights: ["HOT DRINKS", "FESTIVE SPECIALS"],
-    image: coffeeImg,
-    imageAlt: "Зимова сезонна композиція",
+    image: latteRedImg,
+    imageAlt: "Лате в червоній чашці на літній терасі",
     theme: "theme-ink",
   },
   spring: {
@@ -131,8 +131,8 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "SPRING AT PANTONE",
     copy: "Свіжий старт у чашці.",
     highlights: ["FRESH SEASONAL DRINKS"],
-    image: matchaImg,
-    imageAlt: "Весняна сезонна композиція",
+    image: latteRedImg,
+    imageAlt: "Лате в червоній чашці з латте-артом",
     theme: "theme-moss",
   },
 };
@@ -167,7 +167,7 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Княжий Затон 14-В, Київ"),
-    image: osokorkyImg,
+    image: counterImg,
     imageAlt: "Барна стійка та зал кав’ярні Pantone Coffee на Осокорках",
     theme: "theme-ink",
   },
@@ -182,7 +182,7 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Микільський провулок 1/25, Київ"),
-    image: arsenalnaImg,
+    image: storefrontImg,
     imageAlt: "Вхід до кав’ярні Pantone Coffee біля Арсенальної",
     theme: "theme-cream",
   },
@@ -237,13 +237,10 @@ export type GalleryItem = {
 };
 
 export const gallery: GalleryItem[] = [
-  { src: coffeeImg, alt: "Еспресо наливається в керамічну чашку", size: "tall" },
-  { src: pastryImg, alt: "Круасани та грушевий тарт", size: "wide" },
-  { src: matchaImg, alt: "Крижаний матча-лате", size: "small" },
-  { src: heroImg, alt: "Айс-лате поруч із кольоровими картками", size: "large" },
-  { src: craftShopImg, alt: "Чай, кераміка та сухоцвіти", size: "square" },
-  { src: iceCreamImg, alt: "Два ріжки морозива на рожевому тлі", size: "wide" },
-  { src: packagingImg, alt: "Крафтова упаковка кави та сухоцвіти", size: "square" },
-  { src: interiorImg, alt: "Зелений диван і столики в залі кав’ярні", size: "wide" },
-  { src: arsenalnaImg, alt: "Фасад кав’ярні Pantone Coffee у центрі Києва", size: "small" },
+  { src: latteRedImg, alt: "Лате в червоній чашці з фінікою на терасі Pantone Coffee", size: "tall" },
+  { src: counterImg, alt: "Вітрина з десертами та зелені рослини в залі Pantone Coffee", size: "wide" },
+  { src: cupGreenImg, alt: "Зелений стакан Pantone Coffee серед рослин", size: "small" },
+  { src: interiorRedImg, alt: "Червоний диван і мурал PANTONE у залі кав’ярні", size: "large" },
+  { src: cakeBerryImg, alt: "Торт зі свіжими ягодами", size: "square" },
+  { src: storefrontImg, alt: "Засніжений вхід до кав’ярні Pantone Coffee", size: "wide" },
 ];

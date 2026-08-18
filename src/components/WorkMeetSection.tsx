@@ -25,7 +25,7 @@ export function WorkMeetSection() {
         <Reveal delay={100} className="media-zoom mt-12 md:mt-16">
           <img
             src={images.interior}
-            alt="Кава, ноутбук і нотатник на дерев’яному столі у м’якому денному світлі"
+            alt="Зал Pantone Coffee із зеленими рослинами, столами та вітриною"
             width={1600}
             height={1008}
             loading="lazy"

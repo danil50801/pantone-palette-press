@@ -21,7 +21,7 @@ export function CoffeeSection() {
           <Reveal delay={120} className="media-zoom relative md:col-span-7">
             <img
               src={images.coffee}
-              alt="Еспресо наливається в керамічну чашку на темно-червоному тлі"
+              alt="Лате в червоній чашці Pantone Coffee на столику тераси"
               width={1200}
               height={1504}
               loading="lazy"

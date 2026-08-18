@@ -24,7 +24,7 @@ export function FoodSection() {
           <Reveal delay={100} className="media-zoom md:col-span-6 md:-mt-16">
             <img
               src={images.pastry}
-              alt="Круасани та грушевий тарт на керамічних тарілках"
+              alt="Торт зі свіжими ягодами Pantone Coffee"
               width={1408}
               height={1008}
               loading="lazy"
