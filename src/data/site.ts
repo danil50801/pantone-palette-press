@@ -14,6 +14,7 @@ import storefrontAsset from "@/assets/storefront.jpg.asset.json";
 import latteRedAsset from "@/assets/latte-red.jpg.asset.json";
 import cakeBerryAsset from "@/assets/cake-berry.jpg.asset.json";
 import cupGreenAsset from "@/assets/cup-green.png.asset.json";
+import iceCreamSeasonalAsset from "@/assets/ice-cream-seasonal.jpg.asset.json";
 // Complementary editorial imagery (generated to match the brand palette —
 // not photographs of the actual Pantone Coffee locations).
 import genMatchaImg from "@/assets/gen-matcha.jpg";
@@ -28,6 +29,7 @@ const storefrontImg = storefrontAsset.url;
 const latteRedImg = latteRedAsset.url;
 const cakeBerryImg = cakeBerryAsset.url;
 const cupGreenImg = cupGreenAsset.url;
+const iceCreamSeasonalImg = iceCreamSeasonalAsset.url;
 
 export const images = {
   hero: interiorRedImg,
