@@ -128,7 +128,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "WINTER AT PANTONE",
     copy: "Гаряче, повільно, затишно.",
     highlights: ["HOT DRINKS", "FESTIVE SPECIALS"],
-    image: latteRedImg,
+    image: coffeeImg,
     imageAlt: "Лате в червоній чашці на літній терасі",
     theme: "theme-ink",
   },
@@ -138,7 +138,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "SPRING AT PANTONE",
     copy: "Свіжий старт у чашці.",
     highlights: ["FRESH SEASONAL DRINKS"],
-    image: latteRedImg,
+    image: coffeeImg,
     imageAlt: "Лате в червоній чашці з латте-артом",
     theme: "theme-moss",
   },
@@ -174,7 +174,7 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Княжий Затон 14-В, Київ"),
-    image: counterImg,
+    image: osokorkyImg,
     imageAlt: "Барна стійка та зал кав’ярні Pantone Coffee на Осокорках",
     theme: "theme-ink",
   },
@@ -189,7 +189,7 @@ export const locations: Location[] = [
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent("Pantone Coffee, Микільський провулок 1/25, Київ"),
-    image: storefrontImg,
+    image: arsenalnaImg,
     imageAlt: "Вхід до кав’ярні Pantone Coffee біля Арсенальної",
     theme: "theme-cream",
   },
@@ -244,14 +244,14 @@ export type GalleryItem = {
 };
 
 export const gallery: GalleryItem[] = [
-  { src: latteRedImg, alt: "Лате в червоній чашці з фінікою на терасі Pantone Coffee", size: "tall" },
-  { src: counterImg, alt: "Вітрина з десертами та зелені рослини в залі Pantone Coffee", size: "wide" },
-  { src: cupGreenImg, alt: "Зелений стакан Pantone Coffee серед рослин", size: "small" },
-  { src: interiorRedImg, alt: "Червоний диван і мурал PANTONE у залі кав’ярні", size: "large" },
-  { src: cakeBerryImg, alt: "Торт зі свіжими ягодами", size: "square" },
-  { src: storefrontImg, alt: "Засніжений вхід до кав’ярні Pantone Coffee", size: "wide" },
+  { src: coffeeImg, alt: "Кава Pantone Coffee у фірмовій чашці", size: "tall" },
+  { src: hubImg, alt: "Простір Pantone Coffee: столики, рослини та світло", size: "wide" },
+  { src: aestheticCupImg, alt: "Стакан Pantone Coffee — естетичний кадр", size: "small" },
+  { src: insideImg, alt: "Інтер’єр кав’ярні Pantone Coffee", size: "large" },
+  { src: sweetsImg, alt: "Десерти та випічка Pantone Coffee", size: "square" },
+  { src: arsenalnaImg, alt: "Кав’ярня Pantone Coffee біля Арсенальної", size: "wide" },
   { src: genMatchaImg, alt: "Крижаний матча-лате у склянці — редакційний кадр", size: "square" },
   { src: genPastryImg, alt: "Круасани й ягідний тарт на керамічній тарілці", size: "tall" },
-  { src: genIceCreamImg, alt: "Ріжки з морозивом у літньому світлі", size: "small" },
-  { src: genWorkImg, alt: "Робота з ноутбуком за столиком у кав’ярні", size: "wide" },
+  { src: iceCreamImg, alt: "Морозиво Pantone Coffee", size: "small" },
+  { src: osokorkyImg, alt: "Кав’ярня Pantone Coffee на Осокорках", size: "wide" },
 ];
