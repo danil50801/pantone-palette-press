@@ -8,41 +8,37 @@
  * staff are intentionally absent. Placeholders are marked explicitly.
  */
 
-import interiorRedAsset from "@/assets/interior-red.jpg.asset.json";
-import counterAsset from "@/assets/counter.jpg.asset.json";
-import storefrontAsset from "@/assets/storefront.jpg.asset.json";
-import latteRedAsset from "@/assets/latte-red.jpg.asset.json";
-import cakeBerryAsset from "@/assets/cake-berry.jpg.asset.json";
-import cupGreenAsset from "@/assets/cup-green.png.asset.json";
-import lemonadeAsset from "@/assets/lemonade.jpg.asset.json";
+// Real Pantone Coffee photographs — served from /public with root-relative URLs
+// so they resolve identically in preview and in production deployments.
+const aestheticCupImg = "/Aestetic%20cup.png";
+const coffeeImg = "/Coffee.png";
+const sweetsImg = "/Sweets.png";
+const iceCreamImg = "/Ice%20cream.png";
+const lemonadeImg = "/" + encodeURIComponent("Лимонадimages.jpg");
+const insideImg = "/Inside.png";
+const hubImg = "/Hub.png";
+const osokorkyImg = "/Osokorky.png";
+const arsenalnaImg = "/Arsenalna.png";
+
 // Complementary editorial imagery (generated to match the brand palette —
 // not photographs of the actual Pantone Coffee locations).
 import genMatchaImg from "@/assets/gen-matcha.jpg";
 import genCraftImg from "@/assets/gen-craft.jpg";
-import genIceCreamImg from "@/assets/gen-icecream.jpg";
-import genWorkImg from "@/assets/gen-work.jpg";
 import genPastryImg from "@/assets/gen-pastry.jpg";
 
-const interiorRedImg = interiorRedAsset.url;
-const counterImg = counterAsset.url;
-const storefrontImg = storefrontAsset.url;
-const latteRedImg = latteRedAsset.url;
-const cakeBerryImg = cakeBerryAsset.url;
-const cupGreenImg = cupGreenAsset.url;
-const lemonadeImg = lemonadeAsset.url;
-
 export const images = {
-  hero: interiorRedImg,
-  coffee: latteRedImg,
-  iceCream: genIceCreamImg,
-  craftShop: cupGreenImg,
-  pastry: cakeBerryImg,
-  interior: counterImg,
+  hero: insideImg,
+  coffee: coffeeImg,
+  iceCream: iceCreamImg,
+  craftShop: aestheticCupImg,
+  pastry: sweetsImg,
+  interior: hubImg,
   matcha: genMatchaImg,
   packaging: genCraftImg,
-  osokorky: counterImg,
-  arsenalna: storefrontImg,
+  osokorky: osokorkyImg,
+  arsenalna: arsenalnaImg,
 };
+
 
 
 
