@@ -107,8 +107,9 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "SUMMER AT PANTONE",
     copy: "Літо смакує краще холодним.",
     highlights: ["ICE CREAM", "COLD BREW", "MATCHA", "LEMONADES"],
-    image: lemonadeImg,
-    imageAlt: "Освіжаючий лимонад Pantone Coffee з лаймом і м'ятою на дерев'яному столі",
+    image: iceCreamImg,
+    imageAlt: "Морозиво Pantone Coffee — літня сезонна пропозиція",
+
     theme: "theme-blush",
   },
   autumn: {
