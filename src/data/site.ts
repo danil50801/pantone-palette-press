@@ -14,7 +14,7 @@ import storefrontAsset from "@/assets/storefront.jpg.asset.json";
 import latteRedAsset from "@/assets/latte-red.jpg.asset.json";
 import cakeBerryAsset from "@/assets/cake-berry.jpg.asset.json";
 import cupGreenAsset from "@/assets/cup-green.png.asset.json";
-import iceCreamSeasonalAsset from "@/assets/ice-cream-seasonal.jpg.asset.json";
+import lemonadeAsset from "@/assets/lemonade.jpg.asset.json";
 // Complementary editorial imagery (generated to match the brand palette —
 // not photographs of the actual Pantone Coffee locations).
 import genMatchaImg from "@/assets/gen-matcha.jpg";
@@ -29,7 +29,7 @@ const storefrontImg = storefrontAsset.url;
 const latteRedImg = latteRedAsset.url;
 const cakeBerryImg = cakeBerryAsset.url;
 const cupGreenImg = cupGreenAsset.url;
-const iceCreamSeasonalImg = iceCreamSeasonalAsset.url;
+const lemonadeImg = lemonadeAsset.url;
 
 export const images = {
   hero: interiorRedImg,
@@ -111,8 +111,8 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "SUMMER AT PANTONE",
     copy: "Літо смакує краще холодним.",
     highlights: ["ICE CREAM", "COLD BREW", "MATCHA", "LEMONADES"],
-    image: cupGreenImg,
-    imageAlt: "Зелений стакан Pantone Coffee на тлі рослин — сезонна кампанія",
+    image: lemonadeImg,
+    imageAlt: "Освіжаючий лимонад Pantone Coffee з лаймом і м'ятою на дерев'яному столі",
     theme: "theme-blush",
   },
   autumn: {
