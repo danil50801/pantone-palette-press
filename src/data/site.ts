@@ -118,7 +118,7 @@ export const seasonalCampaigns: Record<Season, SeasonalCampaign> = {
     heading: "AUTUMN AT PANTONE",
     copy: "Тепліші смаки для коротших днів.",
     highlights: ["SEASONAL DRINKS", "DESSERTS"],
-    image: cakeBerryImg,
+    image: sweetsImg,
     imageAlt: "Торт із свіжими ягодами Pantone Coffee",
     theme: "theme-red",
   },
