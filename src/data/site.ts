@@ -22,7 +22,6 @@ const arsenalnaImg = "/Arsenalna.png";
 
 // Complementary editorial imagery (generated to match the brand palette —
 // not photographs of the actual Pantone Coffee locations).
-import genMatchaImg from "@/assets/gen-matcha.jpg";
 import genCraftImg from "@/assets/gen-craft.jpg";
 import genPastryImg from "@/assets/gen-pastry.jpg";
 
@@ -33,7 +32,7 @@ export const images = {
   craftShop: aestheticCupImg,
   pastry: sweetsImg,
   interior: hubImg,
-  matcha: genMatchaImg,
+  matcha: lemonadeImg,
   packaging: genCraftImg,
   osokorky: osokorkyImg,
   arsenalna: arsenalnaImg,
@@ -250,7 +249,7 @@ export const gallery: GalleryItem[] = [
   { src: insideImg, alt: "Інтер’єр кав’ярні Pantone Coffee", size: "large" },
   { src: sweetsImg, alt: "Десерти та випічка Pantone Coffee", size: "square" },
   { src: arsenalnaImg, alt: "Кав’ярня Pantone Coffee біля Арсенальної", size: "wide" },
-  { src: genMatchaImg, alt: "Крижаний матча-лате у склянці — редакційний кадр", size: "square" },
+  { src: lemonadeImg, alt: "Лимонад Pantone Coffee", size: "square" },
   { src: genPastryImg, alt: "Круасани й ягідний тарт на керамічній тарілці", size: "tall" },
   { src: iceCreamImg, alt: "Морозиво Pantone Coffee", size: "small" },
   { src: osokorkyImg, alt: "Кав’ярня Pantone Coffee на Осокорках", size: "wide" },
