@@ -28,11 +28,11 @@ import genPastryImg from "@/assets/gen-pastry.jpg";
 export const images = {
   hero: insideImg,
   coffee: coffeeImg,
-  iceCream: iceCreamImg,
+  coffee: aestheticCupImg,
   craftShop: aestheticCupImg,
   pastry: sweetsImg,
   interior: hubImg,
-  matcha: lemonadeImg,
+  interior: osokorkyImg,
   packaging: genCraftImg,
   osokorky: osokorkyImg,
   arsenalna: arsenalnaImg,
