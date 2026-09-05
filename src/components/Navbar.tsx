@@ -21,6 +21,7 @@ export function Navbar() {
   }, [open]);
 
   return (
+    <>
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-colors duration-500",
@@ -81,10 +82,11 @@ export function Navbar() {
           />
         </button>
       </div>
+    </header>
 
       <div
         className={cn(
-          "theme-cream fixed inset-x-0 top-16 bottom-0 overflow-hidden transition-[opacity,transform] duration-500 lg:hidden",
+          "theme-cream fixed inset-x-0 top-16 bottom-0 z-40 overflow-hidden transition-[opacity,transform] duration-500 lg:hidden",
           open ? "pointer-events-auto opacity-100" : "pointer-events-none -translate-y-2 opacity-0",
         )}
       >
@@ -122,6 +124,6 @@ export function Navbar() {
           </div>
         </div>
       </div>
-    </header>
+    </>
   );
 }

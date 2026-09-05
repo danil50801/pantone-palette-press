@@ -20,10 +20,9 @@ const hubImg = "/Hub.png";
 const osokorkyImg = "/Osokorky.png";
 const arsenalnaImg = "/Arsenalna.png";
 
-// Complementary editorial imagery (generated to match the brand palette —
-// not photographs of the actual Pantone Coffee locations).
-import genCraftImg from "@/assets/gen-craft.jpg";
-import genPastryImg from "@/assets/gen-pastry.jpg";
+const craftShopImg = "/" + encodeURIComponent("Craft Shop png.png");
+const craftShop2Img = "/" + encodeURIComponent("Craftshop2.png");
+const craftShop3Img = "/" + encodeURIComponent("Craftshop3.png");
 
 export const images = {
   hero: insideImg,
@@ -33,7 +32,7 @@ export const images = {
   pastry: sweetsImg,
   interior: osokorkyImg,
   matcha: lemonadeImg,
-  packaging: genCraftImg,
+  packaging: craftShopImg,
   osokorky: osokorkyImg,
   arsenalna: arsenalnaImg,
 };
@@ -250,7 +249,8 @@ export const gallery: GalleryItem[] = [
   { src: sweetsImg, alt: "Десерти та випічка Pantone Coffee", size: "square" },
   { src: arsenalnaImg, alt: "Кав’ярня Pantone Coffee біля Арсенальної", size: "wide" },
   { src: lemonadeImg, alt: "Лимонад Pantone Coffee", size: "square" },
-  { src: genPastryImg, alt: "Круасани й ягідний тарт на керамічній тарілці", size: "tall" },
+  { src: craftShop2Img, alt: "Крафтшоп Pantone Coffee: кава, кераміка та смаколики", size: "tall" },
+  { src: craftShop3Img, alt: "Поличка крафтшопу Pantone Coffee", size: "square" },
   { src: iceCreamImg, alt: "Морозиво Pantone Coffee", size: "small" },
   { src: osokorkyImg, alt: "Кав’ярня Pantone Coffee на Осокорках", size: "wide" },
 ];
